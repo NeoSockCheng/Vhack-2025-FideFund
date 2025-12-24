@@ -1,58 +1,120 @@
-# FideFund – A Blockchain-Based Charity Donation Platform
-FideFund is a decentralized charity donation platform designed to bring transparency, security, and engagement to digital giving. Donors can contribute using cryptocurrency or Malaysian Ringgit (MYR), track the impact of their donations in real-time, and ensure funds are properly utilized through milestone-based releases. The platform also features a gamified leaderboard to encourage community participation and a charity admin portal for streamlined campaign management.
+<div align="center">
 
-## 🚀 Key Features
-Blockchain-Powered Donations
-Enables secure and transparent donations using cryptocurrency or MYR.
+# 🏆 FideFund - Blockchain Charity Platform
 
-Real-Time Fund Tracking
-Donors can monitor how their contributions are being used at each stage.
+### VHack 2025 Top 10 Finalist | Flutter Prototype
 
-Milestone-Based Fund Releases
-Funds are disbursed progressively based on project milestone achievements to ensure accountability.
+[![Flutter](https://img.shields.io/badge/Flutter-3.7.2+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 
-Gamified Leaderboard
-Boosts donor engagement by showcasing top contributors in a leaderboard format.
+**Trust in Giving, Joy in Impact**
 
-Charity Admin Management Portal
-Allows charities to manage profiles, launch campaigns, and interact with donors effectively.
+*Cross-platform mobile prototype demonstrating blockchain-powered charitable giving with milestone-based transparency.*
 
-## 🛠️ Tech Stack
-Frontend: Flutter (for cross-platform UI and rapid prototyping)
+</div>
 
-Authentication: Firebase (for secure user sign-in and identity management)
+---
 
-Database: MongoDB (for storing user, campaign, and transaction data)
+## 🎯 Overview
 
-AI Technologies: Used to provide smart donor insights and enhance platform intelligence
+High-fidelity **Flutter prototype** for blockchain charity donations. **Frontend-only** with complete donor & charity workflows, sophisticated UI/UX, and production-ready architecture.
 
-## 📦 Prerequisites
-Ensure you have the following installed:
+> **VHack 2025 Top 10 Finalist** • 15+ Screens • Custom Design System
 
-Flutter SDK
+---
 
-Dart (included with Flutter)
+## ✨ Features
 
-IDE such as Visual Studio Code or Android Studio
+**🔐 Blockchain Transparency** - Crypto/MYR payments • Transaction tracking • Milestone releases  
+**📊 Real-Time Analytics** - Live progress charts • Interactive visualizations  
+**🎮 Gamification** - Animated leaderboard • Contributor rankings  
+**🎯 Dual Portals** - Donors: Browse, donate, track • Charities: Create, manage, report
 
-## 🚀 Getting Started
-Clone the repository
+---
 
-bash
-Copy
-Edit
-git clone _______________________
-cd fidefund
-Install dependencies
+## 🛠️ Tech Stack & Architecture
 
-bash
-Copy
-Edit
+```mermaid
+graph TB
+    subgraph "Frontend (Implemented)"
+        A[Flutter 3.7.2+]
+        B[Provider 6.1.2]
+        C[GetX 4.7.2]
+        D[fl_chart]
+        E[Syncfusion Charts]
+        F[File Picker]
+    end
+    
+    subgraph "Backend (Planned)"
+        G[Firebase Auth]
+        H[MongoDB]
+        I[Blockchain Smart Contracts]
+        J[AI/ML APIs]
+    end
+    
+    subgraph "Architecture"
+        K[MVC Pattern]
+        L[9 Data Models]
+        M[8 Controllers]
+        N[10+ Widgets]
+        O[Mock Data Layer]
+    end
+    
+    A --> K
+    B --> K
+    C --> K
+    K --> L
+    K --> M
+    K --> N
+    K --> O
+    
+    style A fill:#02569B
+    style G fill:#FFCA28
+    style H fill:#47A248
+    style I fill:#627EEA
+    style K fill:#69BF7C
+```
+
+**Design System:** `#96C9DE` Primary • OpenSans fonts • 12px rounded corners • Card shadows  
+**Demo:** 10 campaigns across 8 charity categories (Animal Welfare, Education, Disaster Relief, etc.)
+
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/yourusername/Vhack-2025-FideFund.git
+cd Vhack-2025-FideFund/frontend
 flutter pub get
-Run the application
-Ensure an emulator or physical device is connected:
-
-bash
-Copy
-Edit
 flutter run
+```
+
+---
+
+## 💡 Skills Demonstrated
+
+**Mobile:** Cross-platform Flutter • Animations (`AnimationController`, `Timer`) • Responsive UI  
+**Engineering:** MVC architecture • Component design • Mock data layer  
+**UI/UX:** Dual persona design • Gamification • Micro-interactions  
+**System:** API-ready architecture • State management • Backend planning
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file for details
+
+---
+
+## 👤 Author
+
+**[Your Name]** - VHack 2025 Top 10 Finalist  
+💼 [LinkedIn](https://linkedin.com/in/yourprofile) • 🐙 [GitHub](https://github.com/yourusername) • 📧 [Email](mailto:your.email@example.com)
+
+---
+
+<div align="center">
+
+**Built with ❤️ using Flutter**
+
+</div>
