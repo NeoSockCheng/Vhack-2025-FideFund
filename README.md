@@ -108,7 +108,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 👤 Author
 
-**[Your Name]** - VHack 2025 Top 10 Finalist  
+**NKVE Team** - VHack 2025 Top 10 Finalist (Fintech & Blockchain Category) 
 💼 [LinkedIn](https://linkedin.com/in/yourprofile) • 🐙 [GitHub](https://github.com/yourusername) • 📧 [Email](mailto:your.email@example.com)
 
 ---
